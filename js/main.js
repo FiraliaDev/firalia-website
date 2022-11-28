@@ -8,11 +8,11 @@ class navBar extends HTMLElement {
             <header class="nav">
                 <nav class="navEl">
                     <ul>
-                        <a href=".../index.html"><li><h2>Firalia</h2></li></a>
-                        <a href=".../walls.html"><li>Wallpapers</li></a>
-                        <a href=".../comms.html"><li>Commissions</li></a>
-                        <a href=".../ocs.html"><li>Characters</li></a>
-                        <a href=".../rp.html"><li>Roleplay</li></a>
+                        <a href="../index.html"><li><h2>Firalia</h2></li></a>
+                        <a href="../walls.html"><li>Wallpapers</li></a>
+                        <a href="../comms.html"><li>Commissions</li></a>
+                        <a href="../ocs.html"><li>Characters</li></a>
+                        <a href="../rp.html"><li>Roleplay</li></a>
                     </ul>
                 </nav>
             </header>
@@ -34,8 +34,8 @@ class footer extends HTMLElement {
                     </p>
                     </div>
                     <div class="socials">
-                    <a rel="me" href="https://etheirys.masto.host/@firalia"><img id="mastodon" src=".../images/icons/mastodon white.png"></a>
-                    <a href="mailto:Firalia+business@proton.me"><img id="mail" src=".../images/icons/mail white.png"></a>
+                    <a rel="me" href="https://etheirys.masto.host/@firalia"><img id="mastodon" src="../images/icons/mastodon white.png"></a>
+                    <a href="mailto:Firalia+business@proton.me"><img id="mail" src="../images/icons/mail white.png"></a>
                 </div>
             </footer></center>
         `
