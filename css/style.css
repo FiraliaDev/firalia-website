@@ -1,0 +1,516 @@
+body {
+  background-color: #111012;
+  color: #E9E9E9;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-family: Arial;
+  text-decoration: none;
+  color: #A499EB;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-family: Arial;
+  color: #E9E9E9;
+}
+
+h1, h2 {
+  font-family: 'Parisienne', Arial;
+  font-size: 40px;
+  letter-spacing: 2.5px;
+}
+
+h3, h4 {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+  color: #E9E9E9;
+}
+
+.divider {
+  border-top: 4px solid #E1E1E1;
+  border-radius: 5px;
+  width: 60%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.notice {
+  display: block;
+  background-color: #412F5A;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.nav {
+  display: block;
+  background-color: #232225;
+  text-align: left;
+  width: 100%;
+  margin-top: 0;
+}
+
+.navEl li {
+  display: inline-block;
+  padding: 0 0.5% 0 0.5%;
+  font-family: 'Roboto Slab', Arial;
+  font-size: 20px;
+  color: #E9E9E9;
+}
+
+.navEl li:hover {
+  opacity: 0.85;
+}
+
+.navEl {
+  text-decoration: none;
+  margin-left: 15%;
+  padding: 0.1%;
+}
+
+.navEl h2 {
+  font-family: 'Love Light', Arial;
+  font-size: 50px;
+  letter-spacing: 2.5px;
+  margin: 0;
+}
+
+.navEl img {
+  width: 25px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.bodyCont {
+  min-height: 100vh;
+}
+
+.cont {
+  position: relative;
+  margin: 2%;
+  text-align: center;
+  background-color: #232225;
+  border-radius: 25px;
+  padding: 0.5% 0.5% 2% 0.5%;
+  width: 80vw;
+}
+
+.cont img {
+  width: 60%;
+}
+
+.cont p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#picMe {
+  border-radius: 70%;
+  width: 280px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1999px){
+  #contHome {
+    width: 92vw;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  #contHome {
+    width: 70%;
+  }
+}
+
+/* OCs Page */
+
+#contOC img {
+  width: 50%;
+}
+
+#contOC img, #contOCChar img {
+  transition: all 0.5s ease;
+  margin: 0;
+  border-radius: 25px;
+}
+
+#contOC img:hover, #contOCChar img:hover {
+  transform: scale(1.05);
+}
+
+#contOCChar img {
+  width: 40%;
+}
+
+.oc1, .oc2, .oc3 {
+  margin-left: -5vw;
+  margin-right: -5vw;
+  display: inline-block;
+}
+
+#contOCChar .stories img {
+  width: 50%;
+}
+
+.stories .oc1, .stories .oc2, .stories .oc3 {
+  margin-left: -8vw;
+  margin-right: -8vw;
+}
+
+/* OC Sub-pages */
+
+@media only screen and (max-width: 1999px){
+  .ocProf {
+    width: 100%;
+  }
+  .ocProf img {
+    width: 280px;
+  }
+
+  #contOCPage, #contOC {
+    width: 92vw;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .ocProf {
+    float: left;
+    width: 25%;
+  }
+  .ocProf img {
+    width: 100%;
+  }
+
+  #contOCPage, #contOC {
+    width: 70vw;
+  }
+  .ocBio {
+    float: right;
+  }
+}
+
+#contOCPage {
+  overflow: auto;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+.ocProf {
+  text-align: center;
+  display: inline-block;
+  background-color: #29272A;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.ocProf figcaption {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.ocProf img {
+  object-fit: contain;
+  border-radius: 70%;
+}
+
+.ocProf p {
+  text-align: center;
+}
+
+.ocProf h2 {
+  font-size: 200%;
+}
+
+.ocBio {
+  display: inline-block;
+  margin: 0;
+  width: 75%;
+}
+
+table {
+  font-family: Arial;
+  color: #E9E9E9;
+  display: inline-block;
+  border-color: #E9E9E9;
+  border-collapse: collapse;
+  table-layout: fixed;
+  line-height: 2.2;
+  padding: 2%;
+  margin: 0 auto;
+  vertical-align: baseline;
+  overflow: hidden;
+  text-align: center;
+}
+
+table thead, table th {
+  border-bottom: 1.5px solid;
+  line-height: 3;
+}
+
+table thead, table td {
+  width: 20rem;
+}
+
+/*  Collapsible Sections  */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #232225;
+  color: #BFBFBF;
+  padding: 18px;
+  width: 100%;
+  border-style: solid;
+  border-color: #29272A;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #39363A;
+  border-color: #6e6870;
+  color: #E9E9E9;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  margin: 0;
+  display: none;
+  width: 100%;
+  padding-bottom: 2%;
+  max-height: 0;
+  transition: 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '\002B'; /* Unicode character for "plus" sign (+) */
+  font-size: 20px;
+  color: #BFBFBF;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '\2212'; /* Unicode character for "minus" sign (-) */
+  color: #E9E9E9;
+}
+
+/*  Image Gallery  */
+
+#wallGall {
+  width: 60vw;
+}
+
+#wallGall figcaption {
+  padding: 4%;
+}
+
+#contOCGall {
+  width: 92vw;
+  padding-bottom: 1%;
+}
+
+.gallImg {
+  display: inline-block;
+  margin: 0.5% -2% 0.5% -2%;
+}
+
+.gallImg img, .gallImg video {
+  transition: all 0.5s ease;
+  width: 80%;
+}
+
+.gallImg img:hover, .gallImg video:hover {
+  transform: scale(1.05);
+}
+
+.viewMore{
+  color: #E9E9E9;
+}
+
+.viewMore:hover {
+  text-decoration: none;
+}
+
+.viewMore h4 {
+  transition: all 0.25s ease;
+}
+
+.viewMore h4:hover {
+  transform: scale(1.05);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 3%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal a:hover {
+  text-decoration: none;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img, .mySlides video {
+  width: 100%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  display: block;
+  box-sizing: border-box;
+  background-color: #232225;
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+  padding: 0.4%;
+}
+
+footer a, footer p {
+  color: #69666C;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #8E8A92;
+}
+
+footer .socials img {
+  width: 25px;
+  padding: 0 0.2% 0.5% 0.2%;
+  opacity: 0.6;
+}
+
+#copF {
+  margin-bottom: 0;
+  margin: 0.5% 0 0.2% 0;
+}
+
+footer .copyright p {
+  margin: 0 0 0.5% 0;
+}
+
+
+/* Light mode */
+
+.bodyLight {
+  background-color: #E3E3E3;
+  color: black;
+}
+
+.bodyLight a, .bodyLight p {
+  color: black
+}
+
+.navLight {
+  background-color: white;
+  color: black;
+}
+
+.contLight {
+  background-color: white;
+}
+
+.footerLight {
+  background-color: white;
+}
+
+.footerLight a, .footerLight p {
+  color: #696969;
+}
