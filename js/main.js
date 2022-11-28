@@ -7,11 +7,11 @@ class navBar extends HTMLElement {
             <header class="nav">
                 <nav class="navEl">
                     <ul>
-                        <a href="index.html"><li><h2>Firalia</h2></li></a>
-                        <a href="walls.html"><li>Wallpapers</li></a>
-                        <a href="comms.html"><li>Commissions</li></a>
-                        <a href="ocs.html"><li>Characters</li></a>
-                        <a href="rp.html"><li>Roleplay</li></a>
+                        <a href="../index.html"><li><h2>Firalia</h2></li></a>
+                        <a href="../walls.html"><li>Wallpapers</li></a>
+                        <a href="../comms.html"><li>Commissions</li></a>
+                        <a href="../ocs.html"><li>Characters</li></a>
+                        <a href="../rp.html"><li>Roleplay</li></a>
                     </ul>
                 </nav>
             </header>
