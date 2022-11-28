@@ -33,8 +33,8 @@ class footer extends HTMLElement {
                     </p>
                     </div>
                     <div class="socials">
-                    <a rel="me" href="https://etheirys.masto.host/@firalia"><img id="mastodon" src="images/icons/mastodon white.png"></a>
-                    <a href="mailto:Firalia+business@proton.me"><img id="mail" src="images/icons/mail white.png"></a>
+                    <a rel="me" href="https://etheirys.masto.host/@firalia"><img id="mastodon" src="../images/icons/mastodon white.png"></a>
+                    <a href="mailto:Firalia+business@proton.me"><img id="mail" src="../images/icons/mail white.png"></a>
                 </div>
             </footer></center>
         `
