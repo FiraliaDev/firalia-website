@@ -1,3 +1,4 @@
+// Navigation Bar //
 class navBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -21,7 +22,7 @@ class navBar extends HTMLElement {
 
 customElements.define('navbar-element', navBar)
 
-
+// Footer //
 class footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
